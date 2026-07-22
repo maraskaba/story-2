@@ -1,0 +1,111 @@
+.card-features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 328px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 5px rgba(16, 24, 40, 0.06);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card-features--primary {
+  border-color: #4955ec;
+  background-image: linear-gradient(90deg, #8c8cff 0%, #5864f8 100%);
+}
+
+.card-features--info {
+  border-color: #98daf1;
+  background-image: linear-gradient(243.93deg, #98daf1 10.198%, #edfafe 119.5%);
+}
+
+.card-features--success {
+  border-color: #6ce9a6;
+  background-image: linear-gradient(243.78deg, #6ce9a6 10.236%, #f6fef9 118.9%);
+}
+
+.card-features--warning {
+  border-color: #fedf89;
+  background-image: linear-gradient(243.78deg, #fedf89 10.236%, #fffcf5 118.9%);
+}
+
+.card-features--error {
+  border-color: #ff9aa1;
+  background-image: linear-gradient(243.78deg, #ff9aa1 10.236%, #fff6f6 118.9%);
+}
+
+.card-features__illustration {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+}
+
+.card-features__illustration img {
+  width: 77px;
+  height: 48px;
+}
+
+.card-features__body {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-features__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  word-break: break-word;
+}
+
+.card-features__description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  word-break: break-word;
+}
+
+.card-features--primary .card-features__title,
+.card-features--primary .card-features__description {
+  color: #ffffff;
+}
+
+.card-features--info .card-features__title,
+.card-features--success .card-features__title,
+.card-features--warning .card-features__title,
+.card-features--error .card-features__title {
+  color: #1d2939;
+}
+
+.card-features--info .card-features__description,
+.card-features--success .card-features__description,
+.card-features--warning .card-features__description,
+.card-features--error .card-features__description {
+  color: #344054;
+}
+
+.card-features__chevron {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.card-features__chevron img {
+  width: 8px;
+  height: 14px;
+}
